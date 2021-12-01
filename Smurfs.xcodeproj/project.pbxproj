@@ -17,6 +17,7 @@
 		28D2E46F27576504000088EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2E44527576503000088EA /* ContentView.swift */; };
 		28D2E47027576504000088EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D2E44627576504000088EA /* Assets.xcassets */; };
 		28D2E47127576504000088EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D2E44627576504000088EA /* Assets.xcassets */; };
+		28D2E482275765E7000088EA /* Smurfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2E481275765E7000088EA /* Smurfs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		28D2E46427576504000088EA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D2E46827576504000088EA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		28D2E46A27576504000088EA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		28D2E481275765E7000088EA /* Smurfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smurfs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		28D2E43E27576503000088EA = {
 			isa = PBXGroup;
 			children = (
+				28D2E48027576536000088EA /* source */,
 				28D2E44327576503000088EA /* Shared */,
 				28D2E45227576504000088EA /* macOS */,
 				28D2E45B27576504000088EA /* Tests iOS */,
@@ -139,6 +142,14 @@
 				28D2E46A27576504000088EA /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		28D2E48027576536000088EA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				28D2E481275765E7000088EA /* Smurfs.swift */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2E482275765E7000088EA /* Smurfs.swift in Sources */,
 				28D2E46E27576504000088EA /* ContentView.swift in Sources */,
 				28D2E46C27576504000088EA /* SmurfsApp.swift in Sources */,
 			);
